@@ -50,7 +50,7 @@ function doPost(e) {
     Line_Bot(line_token, replyToken, "Your average blood pressure is: " + avgBP.systolic + "/" + avgBP.diastolic + "/" + avgBP.pulse);
   }
   // else {
-  //   Line_Bot(line_token, replyToken, "請輸入有效的血壓格式 (XXX/XXX/XXX) 或輸入 '平均血壓' 查看您的平均值。");
+  //   Line_Bot(line_token, replyToken, "Please enter a valid blood pressure format (XXX/XXX/XXX) or 'average bp' to view your average.");
   // }
 }
 
